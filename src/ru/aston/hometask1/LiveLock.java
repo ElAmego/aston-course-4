@@ -1,7 +1,7 @@
 package ru.aston.hometask1;
 
 public class LiveLock {
-    static boolean mustWait = true;
+    private static boolean mustWait = true;
 
     public static void main(String[] args) {
         new Thread(() -> {
